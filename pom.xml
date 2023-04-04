@@ -9,4 +9,13 @@
     <version>1.0-SNAPSHOT</version>
 
 
+    <dependencies>
+        <!--  added so you can run Groovy scripts from IDEA -->
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-all</artifactId>
+            <version>3.0.17</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>
